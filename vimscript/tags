@@ -1,0 +1,204 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/kemovic/.config/nvim/plugs-config/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/f2a243f1/
+0	vimspector.json	/^          "${workspaceRoot}\/src\/main\/java",$/;"	s	array:configurations.Java Attach.configuration.sourcePaths
+1	vimspector.json	/^          "${workspaceRoot}\/src\/test\/java"$/;"	s	array:configurations.Java Attach.configuration.sourcePaths
+<C-b>	coc.vim	/^inoremap <nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\<cr>" : "\\/;"	m
+<C-b>	coc.vim	/^nnoremap <nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<C-f>	coc.vim	/^inoremap <nowait><expr> <C-f> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(1)\\<cr>" : "\\/;"	m
+<C-f>	coc.vim	/^nnoremap <nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+<C-s>	coc.vim	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
+<C-s>	coc.vim	/^xmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
+<CR>	denite.vim	/^  nnoremap <silent><buffer><expr> <CR>$/;"	m
+<Leader>x	general.vim	/^map <silent><Leader>x :bd<CR>$/;"	m
+<S-Down>	general.vim	/^nmap <silent> <S-Down> :resize -5<CR>$/;"	m
+<S-Left>	general.vim	/^nmap <silent> <S-Left> :vertical resize -5<CR>$/;"	m
+<S-Right>	general.vim	/^nmap <silent> <S-Right> :vertical resize +5<CR>$/;"	m
+<S-TAB>	coc.vim	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
+<S-Up>	general.vim	/^nmap <silent> <S-Up> :resize +5<CR>$/;"	m
+<S-h>	general.vim	/^nmap <silent> <S-h> :wincmd h<CR>$/;"	m
+<S-j>	general.vim	/^nmap <silent> <S-j> :wincmd j<CR>$/;"	m
+<S-k>	general.vim	/^nmap <silent> <S-k> :wincmd k<CR>$/;"	m
+<S-l>	general.vim	/^nmap <silent> <S-l> :wincmd l<CR>$/;"	m
+<Space>	denite.vim	/^  nnoremap <silent><buffer><expr> <Space>$/;"	m
+<TAB>	coc.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<TAB>	deoplete.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<c-@>	coc.vim	/^  inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
+<c-Bs>	tmux.vim	/^nnoremap <silent> <c-Bs>    :TmuxNavigatePrevious<cr>$/;"	m
+<c-Down>	tmux.vim	/^nnoremap <silent> <c-Down>  :TmuxNavigateDown<cr>$/;"	m
+<c-Left>	tmux.vim	/^nnoremap <silent> <c-Left>  :TmuxNavigateLeft<cr>$/;"	m
+<c-Right>	tmux.vim	/^nnoremap <silent> <c-Right> :TmuxNavigateRight<cr>$/;"	m
+<c-Up>	tmux.vim	/^nnoremap <silent> <c-Up>    :TmuxNavigateUp<cr>$/;"	m
+<c-space>	coc.vim	/^  inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<cr>	coc.vim	/^inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()$/;"	m
+<leader>	whichkey.vim	/^nnoremap <silent> <leader> :silent WhichKey '<Space>'<CR>$/;"	m
+<leader>	whichkey.vim	/^vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>$/;"	m
+<leader>Wh	general.vim	/^nmap <silent> <leader>Wh :split<CR>$/;"	m
+<leader>Wo	general.vim	/^nmap <silent> <leader>Wo :only<CR>$/;"	m
+<leader>Wv	general.vim	/^nmap <silent> <leader>Wv :vsplit<CR>$/;"	m
+<leader>Wx	general.vim	/^nmap <silent> <leader>Wx :hide<CR>$/;"	m
+<leader>fr	prettier.vim	/^nmap <leader>fr  <Plug>(coc-format-selected)$/;"	m
+<leader>fr	prettier.vim	/^vmap <leader>fr  <Plug>(coc-format-selected)$/;"	m
+<leader>n	nerdtree.vim	/^map <silent><leader>n :NERDTreeToggle<CR>$/;"	m
+<leader>tt	shortcuts.vim	/^nnoremap <silent><leader>tt :FloatermNew!<cr>$/;"	m
+Fold	coc.vim	/^command! -nargs=? Fold :call     CocAction('fold', <f-args>)$/;"	c
+Format	coc.vim	/^command! -nargs=0 Format :call CocAction('format')$/;"	c
+Java Attach	vimspector.json	/^    "Java Attach": {$/;"	o	object:configurations
+K	coc.vim	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+OR	coc.vim	/^command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')$/;"	c
+Prettier	prettier.vim	/^command! -nargs=0 Prettier :CocCommand prettier.formatFile$/;"	c
+ShowDocIfNoDiagnostic	coc.vim	/^function! ShowDocIfNoDiagnostic(timer_id)$/;"	f
+[g	coc.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
+]g	coc.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
+ac	coc.vim	/^omap ac <Plug>(coc-classobj-a)$/;"	m
+ac	coc.vim	/^xmap ac <Plug>(coc-classobj-a)$/;"	m
+adapter	vimspector.json	/^      "adapter": "vscode-java",$/;"	s	object:configurations.Java Attach
+af	coc.vim	/^omap af <Plug>(coc-funcobj-a)$/;"	m
+af	coc.vim	/^xmap af <Plug>(coc-funcobj-a)$/;"	m
+configuration	vimspector.json	/^      "configuration": {$/;"	o	object:configurations.Java Attach
+configurations	vimspector.json	/^  "configurations": {$/;"	o
+d	denite.vim	/^  nnoremap <silent><buffer><expr> d$/;"	m
+g:CtrlSpaceDefaultMappingKey	general.vim	/^let g:CtrlSpaceDefaultMappingKey = "<C-space> "$/;"	v
+g:NERDTreeChDirMode	nerdtree.vim	/^let g:NERDTreeChDirMode = 1$/;"	v
+g:OmniSharp_diagnostic_showid	omnisharp.vim	/^let g:OmniSharp_diagnostic_showid = 1$/;"	v
+g:OmniSharp_highlight_groups	omnisharp.vim	/^let g:OmniSharp_highlight_groups = {$/;"	v
+g:OmniSharp_highlighting	omnisharp.vim	/^let g:OmniSharp_highlighting = 1$/;"	v
+g:OmniSharp_popup	omnisharp.vim	/^let g:OmniSharp_popup = 1$/;"	v
+g:OmniSharp_popup_mappings	omnisharp.vim	/^let g:OmniSharp_popup_mappings = {$/;"	v
+g:OmniSharp_popup_options	omnisharp.vim	/^let g:OmniSharp_popup_options = {$/;"	v
+g:OmniSharp_selector_findusages	omnisharp.vim	/^let g:OmniSharp_selector_findusages = 'fzf'$/;"	v
+g:OmniSharp_selector_ui	omnisharp.vim	/^let g:OmniSharp_selector_ui = 'fzf'    " Use fzf$/;"	v
+g:OmniSharp_server_stdio	omnisharp.vim	/^let g:OmniSharp_server_stdio = 1$/;"	v
+g:airline#extensions#hunks#non_zero_only	airline.vim	/^let g:airline#extensions#hunks#non_zero_only = 1$/;"	v
+g:airline#extensions#tabline#enabled	airline.vim	/^let g:airline#extensions#tabline#enabled = 1$/;"	v
+g:airline#extensions#wordcount#enabled	airline.vim	/^let g:airline#extensions#wordcount#enabled = 1$/;"	v
+g:airline_left_alt_sep	airline.vim	/^  let g:airline_left_alt_sep = ''$/;"	v
+g:airline_left_sep	airline.vim	/^  let g:airline_left_sep = ''$/;"	v
+g:airline_powerline_fonts	onedark.vim	/^let g:airline_powerline_fonts=1$/;"	v
+g:airline_right_alt_sep	airline.vim	/^  let g:airline_right_alt_sep = ''$/;"	v
+g:airline_right_sep	airline.vim	/^  let g:airline_right_sep = ''$/;"	v
+g:airline_symbols	airline.vim	/^  let g:airline_symbols.branch = ''$/;"	v
+g:airline_symbols	airline.vim	/^  let g:airline_symbols.dirty='⚡'$/;"	v
+g:airline_symbols	airline.vim	/^  let g:airline_symbols.linenr = '☰'$/;"	v
+g:airline_symbols	airline.vim	/^  let g:airline_symbols.maxlinenr = ''$/;"	v
+g:airline_symbols	airline.vim	/^  let g:airline_symbols.notexists='⚡'$/;"	v
+g:airline_symbols	airline.vim	/^  let g:airline_symbols.readonly = ''$/;"	v
+g:airline_symbols	airline.vim	/^let g:airline_symbols = {}$/;"	v
+g:airline_theme	airline.vim	/^let g:airline_theme='dracula'$/;"	v
+g:airline_theme	onedark.vim	/^let g:airline_theme='tokyonight'$/;"	v
+g:deoplete#enable_at_startup	deoplete.vim	/^let g:deoplete#enable_at_startup = 1$/;"	v
+g:deoplete#enable_logging	deoplete.vim	/^let g:deoplete#enable_logging({level}, {logfile})$/;"	v
+g:deoplete#sources	deoplete.vim	/^let g:deoplete#sources = {}$/;"	v
+g:deoplete#sources	deoplete.vim	/^let g:deoplete#sources.java = ['jc', 'javacomplete2', 'file', 'buffer', 'ultisnips']$/;"	v
+g:edge_disable_italic_comment	edge.vim	/^        let g:edge_disable_italic_comment = 1$/;"	v
+g:edge_enable_italic	edge.vim	/^        let g:edge_enable_italic = 1$/;"	v
+g:edge_style	edge.vim	/^        let g:edge_style = 'neon'$/;"	v
+g:gitgutter_enabled	git-gutter.vim	/^let g:gitgutter_enabled=1$/;"	v
+g:gruvbox_enable_italics	gruvbox.vim	/^let g:gruvbox_enable_italics=1$/;"	v
+g:gruvbox_style	gruvbox.vim	/^let g:gruvbox_style=dark$/;"	v
+g:javascript_conceal_arrow_function	javascript.vim	/^let g:javascript_conceal_arrow_function       = ""$/;"	v
+g:javascript_plugin_flow	javascript.vim	/^let g:javascript_plugin_flow=1$/;"	v
+g:javascript_plugin_jsdocs	javascript.vim	/^let g:javascript_plugin_jsdocs =1$/;"	v
+g:javascript_plugin_ngdocs	javascript.vim	/^let g:javascript_plugin_ngdocs=1$/;"	v
+g:material_style	vim-material.vim	/^let g:material_style='Oceanic'$/;"	v
+g:multi_cursor_next_key	multiple-cursors.vim	/^let g:multi_cursor_next_key            = '<C-n>'$/;"	v
+g:multi_cursor_prev_key	multiple-cursors.vim	/^let g:multi_cursor_prev_key            = '<C-p>'$/;"	v
+g:multi_cursor_quit_key	multiple-cursors.vim	/^let g:multi_cursor_quit_key            = '<Esc>'$/;"	v
+g:multi_cursor_select_all_key	multiple-cursors.vim	/^let g:multi_cursor_select_all_key      = 'g<A-n>'$/;"	v
+g:multi_cursor_select_all_word_key	multiple-cursors.vim	/^let g:multi_cursor_select_all_word_key = '<A-n>'$/;"	v
+g:multi_cursor_skip_key	multiple-cursors.vim	/^let g:multi_cursor_skip_key            = '<C-x>'$/;"	v
+g:multi_cursor_start_key	multiple-cursors.vim	/^let g:multi_cursor_start_key           = 'g<C-n>'$/;"	v
+g:multi_cursor_start_word_key	multiple-cursors.vim	/^let g:multi_cursor_start_word_key      = '<C-n>'$/;"	v
+g:multi_cursor_use_default_mapping	multiple-cursors.vim	/^let g:multi_cursor_use_default_mapping=0$/;"	v
+g:oceanic_next_terminal_bold	oceanicnext.vim	/^let g:oceanic_next_terminal_bold = 1$/;"	v
+g:oceanic_next_terminal_italic	oceanicnext.vim	/^let g:oceanic_next_terminal_italic = 1$/;"	v
+g:one_allow_italics	onedark.vim	/^let g:one_allow_italics=1$/;"	v
+g:rainbow_active	rainbow.vim	/^let g:rainbow_active=1$/;"	v
+g:ranger_map_keys	ranger.vim	/^ let g:ranger_map_keys=0$/;"	v
+g:ruby_host_prog	ruby.vim	/^let g:ruby_host_prog = '\/home\/kemovic\/.gem\/ruby\/2.7.0\/bin\/neovim-ruby-host'$/;"	v
+g:startify_bookmarks	startify.vim	/^let g:startify_bookmarks = [$/;"	v
+g:startify_change_to_vcs_root	startify.vim	/^let g:startify_change_to_vcs_root = 1$/;"	v
+g:startify_custom_header	startify.vim	/^let g:startify_custom_header=[$/;"	v
+g:startify_fortune_use_unicode	startify.vim	/^let g:startify_fortune_use_unicode = 1$/;"	v
+g:startify_lists	startify.vim	/^let g:startify_lists = [$/;"	v
+g:startify_session_dir	startify.vim	/^let g:startify_session_dir = '~\/.config\/nvim\/session'$/;"	v
+g:syntastic_always_populate_loc_list	syntastic.vim	/^let g:syntastic_always_populate_loc_list = 1$/;"	v
+g:syntastic_auto_loc_list	syntastic.vim	/^let g:syntastic_auto_loc_list = 1$/;"	v
+g:syntastic_check_on_open	syntastic.vim	/^let g:syntastic_check_on_open = 1$/;"	v
+g:syntastic_check_on_wq	syntastic.vim	/^let g:syntastic_check_on_wq = 1$/;"	v
+g:syntastic_html_tidy_ignore_errors	syntastic.vim	/^let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute " ,"trimming empty \\<", "inser/;"	v
+g:syntastic_java_checkers	java.vim	/^let g:syntastic_java_checkers = []$/;"	v
+g:syntastic_php_checkers	syntastic.vim	/^let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']$/;"	v
+g:syntastic_python_checkers	syntastic.vim	/^let g:syntastic_python_checkers = ['pylint']$/;"	v
+g:tagalong_mappings	tagalong.vim	/^let g:tagalong_mappings=['c', 'C', 'v', 'i', 'a','r']$/;"	v
+g:tex_flavor	latex.vim	/^let g:tex_flavor='latex'$/;"	v
+g:tmux_navigator_no_mappings	tmux.vim	/^let g:tmux_navigator_no_mappings = 1$/;"	v
+g:tokyonight_enable_italics	tokyonight.vim	/^let g:tokyonight_enable_italics=1$/;"	v
+g:tokyonight_style	tokyonight.vim	/^let g:tokyonight_style='night'$/;"	v
+g:user_emmet_install_global	emmet.vim	/^let g:user_emmet_install_global = 0$/;"	v
+g:vimspector_base_dir	vimspector.vim	/^let g:vimspector_base_dir=expand( '$HOME\/.config\/nvim\/plugs-config' )$/;"	v
+g:which_key_hspace	whichkey.vim	/^let g:which_key_hspace = 2$/;"	v
+g:which_key_map	whichkey.vim	/^ let g:which_key_map.w = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map =  {}$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.D = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.G = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.M = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.S = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.W = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.a = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.b = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.c = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.f = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.g = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.k = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.l = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.m = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.s = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map.t = {$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['.'] = [ ':e $MYVIMRC'                                     , 'open init' ]$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map[';'] = [ ':Commands'                                       , 'commands' ]$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['C'] = [ ':TagbarToggle'                                            , 'Tagba/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['T'] = [ ':TSHighlightCapturesUnderCursor'                 , 'treesitter hig/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['\/'] = [ ':call Comment()'                                 , 'comment' ]$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   , 'explorer' ]$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['n'] = [ ':let @\/ = ""'                                    , 'no highlight'/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['o'] = [ ':RnvimrToggle'                                   , 'open' ]$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['p'] = [ ':Files'                                          , 'search files' /;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['u'] = [ ':UndotreeToggle'                                 , 'undo tree']$/;"	v
+g:which_key_map	whichkey.vim	/^let g:which_key_map['z'] = [ 'Goyo'                                            , 'zen' ]$/;"	v
+g:which_key_max_size	whichkey.vim	/^let g:which_key_max_size=0$/;"	v
+g:which_key_sep	whichkey.vim	/^let g:which_key_sep = '→'$/;"	v
+g:which_key_sort_horizontal	whichkey.vim	/^let g:which_key_sort_horizontal = 1$/;"	v
+g:which_key_use_floating_win	whichkey.vim	/^let g:which_key_use_floating_win = 0$/;"	v
+g:which_key_vertical	whichkey.vim	/^let g:which_key_vertical = 0$/;"	v
+gd	coc.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gi	coc.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gr	coc.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gy	coc.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+hostName	vimspector.json	/^        "hostName": "${host}",$/;"	s	object:configurations.Java Attach.configuration
+i	denite.vim	/^  nnoremap <silent><buffer><expr> i$/;"	m
+ic	coc.vim	/^omap ic <Plug>(coc-classobj-i)$/;"	m
+ic	coc.vim	/^xmap ic <Plug>(coc-classobj-i)$/;"	m
+if	coc.vim	/^omap if <Plug>(coc-funcobj-i)$/;"	m
+if	coc.vim	/^xmap if <Plug>(coc-funcobj-i)$/;"	m
+javaSu	java.vim	/^augroup javaSu$/;"	a
+mapleader	general.vim	/^let mapleader = "\\<space>"$/;"	v
+mygroup	coc.vim	/^augroup mygroup$/;"	a
+omnisharp_commands	omnisharp.vim	/^augroup omnisharp_commands$/;"	a
+p	denite.vim	/^  nnoremap <silent><buffer><expr> p$/;"	m
+port	vimspector.json	/^        "port": "${port}",$/;"	s	object:configurations.Java Attach.configuration
+q	denite.vim	/^  nnoremap <silent><buffer><expr> q$/;"	m
+request	vimspector.json	/^        "request": "attach",$/;"	s	object:configurations.Java Attach.configuration
+s:check_back_space	coc.vim	/^function! s:check_back_space() abort$/;"	f
+s:check_back_space	deoplete.vim	/^function! s:check_back_space() abort "" {{{$/;"	f
+s:denite_my_settings	denite.vim	/^function! s:denite_my_settings() abort$/;"	f
+s:show_documentation	coc.vim	/^function! s:show_documentation()$/;"	f
+sourcePaths	vimspector.json	/^        "sourcePaths": [$/;"	a	object:configurations.Java Attach.configuration

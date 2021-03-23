@@ -1,0 +1,37 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "graphql",
+    "java",
+    "python",
+    "java",
+    "html"
+  ],
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact",
+    "angular-html": "html",
+    "typescript": "typescriptreact"
+  },
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  },
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.implementationsCodeLens.enabled": true,
+  "typescript.suggest.paths": true,
+  "java.trace.server": "verbose",
+  "java.format.settings.url": "/home/kemovic/.config/coc/extensions/node_modules/redhat.java/eclipse-formatter.xml",
+  "java.home": "/usr/lib/jvm/java-11-openjdk"
+}

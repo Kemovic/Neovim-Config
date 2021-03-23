@@ -1,0 +1,10 @@
+vim.cmd [[autocmd CursorHold,CursorHoldI * lua require'nvim-lightbulb'.update_lightbulb()]]
+vim.cmd [[autocmd CursorHold,CursorHoldI * javascript require'nvim-lightbulb'.update_lightbulb()]]
+vim.cmd [[autocmd CursorHold,CursorHoldI * typescript require'nvim-lightbulb'.update_lightbulb()]]
+vim.cmd [[autocmd CursorHold,CursorHoldI * html require'nvim-lightbulb'.update_lightbulb()]]
+vim.cmd [[autocmd CursorHold,CursorHoldI * css require'nvim-lightbulb'.update_lightbulb()]]
+vim.cmd [[autocmd CursorHold,CursorHoldI * markdown require'nvim-lightbulb'.update_lightbulb()]]
+vim.cmd [[autocmd CursorHold,CursorHoldI * javascriptreact require'nvim-lightbulb'.update_lightbulb()]]
+vim.cmd [[autocmd CursorHold,CursorHoldI * typescriptreact require'nvim-lightbulb'.update_lightbulb()]]
+vim.cmd [[autocmd CursorHold,CursorHoldI * yaml require'nvim-lightbulb'.update_lightbulb()]]
+
