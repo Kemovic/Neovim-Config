@@ -44,6 +44,7 @@ return require('packer').startup(function()
   use 'vimwiki/vimwiki'
   use 'tbabej/taskwiki'
   use 'plasticboy/vim-markdown'
+  use 'blindFS/vim-taskwarrior'
   --Media
   use 'azadkuh/vim-cmus'
   --General
