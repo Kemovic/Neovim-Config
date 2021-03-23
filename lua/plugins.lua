@@ -40,6 +40,10 @@ return require('packer').startup(function()
   use 'f-person/git-blame.nvim'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-rhubarb'
+  --Wiki
+  use 'vimwiki/vimwiki'
+  use 'tbabej/taskwiki'
+  use 'plasticboy/vim-markdown'
   --Media
   use 'azadkuh/vim-cmus'
   --General
@@ -57,7 +61,6 @@ return require('packer').startup(function()
   use 'vim-syntastic/syntastic'
   use 'kevinhwang91/rnvimr'
   use 'mbbill/undotree'
-  use 'vimwiki/vimwiki'
   use 'mhinz/vim-startify'
   use 'metakirby5/codi.vim'
   use 'psliwka/vim-smoothie'
