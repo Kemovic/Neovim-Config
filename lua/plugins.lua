@@ -82,6 +82,7 @@ return require('packer').startup(function()
   use {'dracula/vim', as = 'dracula'}
   use 'joshdick/onedark.vim'
   use {'kaicataldo/material.vim', branch= 'main' }
+  use 'ghifarit53/tokyonight-vim'
   use 'gruvbox-community/gruvbox'
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'
