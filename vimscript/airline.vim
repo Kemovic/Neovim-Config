@@ -13,7 +13,7 @@ let g:airline#extensions#coc#error_symbol =' '
 let g:airline#extensions#coc#warning_symbol = ' '
 let g:airline#extensions#hunks#enabled = 1
 let g:airline#extensions#hunks#hunk_symbols =['+', '~', '-']
-" let g:airline_theme='onedark'
+ let g:airline_theme='tokyonight'
 let g:airline_symbols = {}
 "call airline#parts#define_accent('normal', 'blue')
 "call airline#parts#define_accent('insert', 'green')

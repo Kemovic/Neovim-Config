@@ -23,7 +23,7 @@ set omnifunc=syntaxcomplete#Complete
 set suffixesadd=.java
 set mouse=a
 "set shortmes+=1
-colorscheme tokyonight
+colorscheme onedark
 let g:rainbow_active = 1
 map <silent><Leader>x :bd<CR>
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
