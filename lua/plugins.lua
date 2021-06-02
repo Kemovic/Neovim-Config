@@ -36,7 +36,15 @@ return require('packer').startup(function()
   --use 'norcalli/nvim-colorizer.lua'
   -- Git
   use 'TimUntersberger/neogit'
-  use {'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
+  use {
+  'lewis6991/gitsigns.nvim',
+  requires = {
+    'nvim-lua/plenary.nvim'
+  },
+  config = function()
+    require('gitsigns').setup()
+  end
+}
   use 'f-person/git-blame.nvim'
   use 'tpope/vim-fugitive'
   use 'tpope/vim-rhubarb'

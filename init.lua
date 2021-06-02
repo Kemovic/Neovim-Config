@@ -1,6 +1,7 @@
 --lua plugins configurations
 require('plugins')
 require('treesitter-conf')
+--require('gitsigns')
 --require('settings')
 --require('nvim-compe')
 --require('lsp-config')
