@@ -1,10 +1,9 @@
 "General
 nnoremap <leader>C :Commands<cr>
-"nnoremap <leader>ce :CocCommand explorer<cr>
 "map <silent><leader>e :NERDTreeToggle<CR>
-nnoremap <silent><leader>e :NvimTreeToggle<CR>
-nnoremap <S-r> :NvimTreeRefresh<CR>
-nnoremap <C-f> :NvimTreeFindFile<CR>
+nnoremap <silent><leader>e :CocCommand explorer<CR>
+"nnoremap <S-r> :NvimTreeRefresh<CR>
+"nnoremap <C-f> :NvimTreeFindFile<CR>
 nnoremap <leader>f :Files<cr>
 nnoremap <leader>tt :FloatermToggle<cr>
 nnoremap <leader>u :UndotreeToggle<cr>
@@ -45,15 +44,15 @@ nnoremap <leader>gl :Git log<cr>
 nnoremap <leader>gu :Git push<cr>
 nnoremap <leader>gd :Git pull<cr>
 nnoremap <leader>gr :Git remove<cr>
-nnoremap <leader>gvc :GV<cr>
-nnoremap <leader>gvb :GV!<cr>
-" nnoremap <leader>cc :CocList commands<cr>
-" nnoremap <leader>cm :CocList marketplace<cr>
-" nnoremap <leader>cx :CocList extensions<cr>
-" nnoremap <leader>cd :CocList diagnostics<cr>
-" nnoremap <leader>ch :checkhealth<cr>
-" nnoremap <leader>cu :CocUpdate<cr>
-" nnoremap <leader>cS :CocList -I sympols<cr>
+nnoremap <leader>gv :GV<cr>
+nnoremap <leader>gV :GV!<cr>
+nnoremap <leader>cc :CocList commands<cr>
+nnoremap <leader>cm :CocList marketplace<cr>
+nnoremap <leader>cx :CocList extensions<cr>
+nnoremap <leader>cd :CocList diagnostics<cr>
+nnoremap <leader>ch :checkhealth<cr>
+nnoremap <leader>cu :CocUpdate<cr>
+nnoremap <leader>cS :CocList -I sympols<cr>
 nnoremap <leader>lg :FloatermNew lazygit<cr>
 nnoremap <leader>ld :FloatermNew lazydocker<cr>
 nnoremap <leader>wv :vsplit<cr>
@@ -87,14 +86,14 @@ nmap <silent> <leader>wo :only<CR>
 "nmap <silent> <F4> <Plug>AirLineSelectPrevTab
 let g:vimspector_enable_mappings = 'HUMAN'
 "Java
-  nnoremap <leader>I <Plug>(JavaComplete-Imports-AddMissing)
-  imap <C-j>R <Plug>(JavaComplete-Imports-RemoveUnused)
-  imap <C-j>i <Plug>(JavaComplete-Imports-AddSmart)
-  imap <C-j>ii <Plug>(JavaComplete-Imports-Add)
-  imap <C-j>jM <Plug>(JavaComplete-Generate-AbstractMethods)
-  imap <C-j>s <Plug>(JavaComplete-Generate-AccessorSetter)
-  imap <C-j>g <Plug>(JavaComplete-Generate-AccessorGetter)
-  imap <C-j>a <Plug>(JavaComplete-Generate-AccessorSetterGetter)
+  "nnoremap <leader>I <Plug>(JavaComplete-Imports-AddMissing)
+  "imap <C-j>R <Plug>(JavaComplete-Imports-RemoveUnused)
+  "imap <C-j>i <Plug>(JavaComplete-Imports-AddSmart)
+  "imap <C-j>ii <Plug>(JavaComplete-Imports-Add)
+  "imap <C-j>jM <Plug>(JavaComplete-Generate-AbstractMethods)
+  "imap <C-j>s <Plug>(JavaComplete-Generate-AccessorSetter)
+  "imap <C-j>g <Plug>(JavaComplete-Generate-AccessorGetter)
+  "imap <C-j>a <Plug>(JavaComplete-Generate-AccessorSetterGetter)
   " for normal mode - the word under the cursor
 nmap <Leader>di <Plug>VimspectorBalloonEval
 " for visual mode, the visually selected text

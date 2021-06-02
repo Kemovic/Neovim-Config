@@ -44,10 +44,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/bracey.vim"
   },
-  ["coc.nvim"] = {
-    loaded = true,
-    path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/coc.nvim"
-  },
   ["codi.vim"] = {
     loaded = true,
     path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/codi.vim"
@@ -201,6 +197,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/tagalong.vim"
   },
+  taskwiki = {
+    loaded = true,
+    path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/taskwiki"
+  },
   ["telescope-media-files.nvim"] = {
     loaded = true,
     path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/telescope-media-files.nvim"
@@ -208,6 +208,10 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["tokyonight-vim"] = {
+    loaded = true,
+    path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/tokyonight-vim"
   },
   ultisnips = {
     loaded = true,
@@ -259,6 +263,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/vim-javacomplete2"
   },
+  ["vim-markdown"] = {
+    loaded = true,
+    path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/vim-markdown"
+  },
   ["vim-matchup"] = {
     after_files = { "/home/kemovic/.local/share/nvim/site/pack/packer/opt/vim-matchup/after/plugin/matchit.vim" },
     loaded = false,
@@ -293,6 +301,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/vim-startify"
   },
+  ["vim-taskwarrior"] = {
+    loaded = true,
+    path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/vim-taskwarrior"
+  },
   ["vim-vinegar"] = {
     loaded = true,
     path = "/home/kemovic/.local/share/nvim/site/pack/packer/start/vim-vinegar"
@@ -321,10 +333,10 @@ _G.packer_plugins = {
 
 
 -- Command lazy-loads
-vim.cmd [[command! -nargs=* -range -bang -complete=file Focus lua require("packer.load")({'vim-dispatch'}, { cmd = "Focus", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args> }, _G.packer_plugins)]]
 vim.cmd [[command! -nargs=* -range -bang -complete=file Start lua require("packer.load")({'vim-dispatch'}, { cmd = "Start", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args> }, _G.packer_plugins)]]
 vim.cmd [[command! -nargs=* -range -bang -complete=file Dispatch lua require("packer.load")({'vim-dispatch'}, { cmd = "Dispatch", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args> }, _G.packer_plugins)]]
 vim.cmd [[command! -nargs=* -range -bang -complete=file Make lua require("packer.load")({'vim-dispatch'}, { cmd = "Make", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args> }, _G.packer_plugins)]]
+vim.cmd [[command! -nargs=* -range -bang -complete=file Focus lua require("packer.load")({'vim-dispatch'}, { cmd = "Focus", l1 = <line1>, l2 = <line2>, bang = <q-bang>, args = <q-args> }, _G.packer_plugins)]]
 
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]

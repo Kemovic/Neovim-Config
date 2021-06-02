@@ -1,6 +1,7 @@
 set wildmenu 
 " set wildmode=list:longest,full 
 set hlsearch 	                          "To hilight the search"
+set clipboard=unnamedplus	                          "To hilight the search"
 set incsearch
 set relativenumber                              " Line numbers
 set nu rnu
@@ -23,7 +24,7 @@ set omnifunc=syntaxcomplete#Complete
 set suffixesadd=.java
 set mouse=a
 "set shortmes+=1
-colorscheme onedark
+colorscheme edge
 let g:rainbow_active = 1
 map <silent><Leader>x :bd<CR>
 autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart

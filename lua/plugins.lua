@@ -1,4 +1,4 @@
----@diagnostic disable: undefined-global
+----@diagnostic disable: undefined-global
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function()
@@ -13,11 +13,11 @@ return require('packer').startup(function()
   use 'neovim/nvim-lspconfig'
   use 'glepnir/lspsaga.nvim'
   use 'onsails/lspkind-nvim'
-  use 'kosayoda/nvim-lightbulb'
-  use 'mfussenegger/nvim-jdtls'
-  use 'artur-shaik/vim-javacomplete2'
+--  use 'kosayoda/nvim-lightbulb'
+--  use 'mfussenegger/nvim-jdtls'
+--  use 'artur-shaik/vim-javacomplete2'
    -- Debugging
-  use 'mfussenegger/nvim-dap'
+--  use 'mfussenegger/nvim-dap'
   -- Autocomplete
   use 'hrsh7th/vim-vsnip'
   use 'hrsh7th/vim-vsnip-integ'
@@ -32,8 +32,8 @@ return require('packer').startup(function()
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-media-files.nvim'
   -- Explorer
-  use 'kyazdani42/nvim-tree.lua'
-  use 'norcalli/nvim-colorizer.lua'
+  --use 'kyazdani42/nvim-tree.lua'
+  --use 'norcalli/nvim-colorizer.lua'
   -- Git
   use 'TimUntersberger/neogit'
   use {'lewis6991/gitsigns.nvim', requires = { 'nvim-lua/plenary.nvim' } }
@@ -49,17 +49,18 @@ return require('packer').startup(function()
   use 'azadkuh/vim-cmus'
   --General
   use 'jiangmiao/auto-pairs'
-  -- use {'neoclide/coc.nvim', branch='release'}
+  use {'neoclide/coc.nvim', branch='release'}
   use 'kevinhwang91/nvim-bqf'
   use 'mattn/emmet-vim'
   use 'puremourning/vimspector'
  -- use {'junegunn/fzf',  run = '-> fzf#install()' } 
   use 'junegunn/fzf.vim'
+  use 'kassio/neoterm'
   use 'tpope/vim-vinegar'
   use 'prettier/vim-prettier'
   use 'unblevable/quick-scope'
   use 'airblade/vim-rooter'
-  use 'vim-syntastic/syntastic'
+ -- use 'vim-syntastic/syntastic'
   use 'kevinhwang91/rnvimr'
   use 'mbbill/undotree'
   use 'mhinz/vim-startify'
@@ -83,6 +84,7 @@ return require('packer').startup(function()
   use 'joshdick/onedark.vim'
   use {'kaicataldo/material.vim', branch= 'main' }
   use 'ghifarit53/tokyonight-vim'
+  use 'sainnhe/edge'
   use 'gruvbox-community/gruvbox'
   use 'vim-airline/vim-airline'
   use 'vim-airline/vim-airline-themes'

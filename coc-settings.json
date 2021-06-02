@@ -33,5 +33,9 @@
   "typescript.suggest.paths": true,
   "java.trace.server": "verbose",
   "java.format.settings.url": "/home/kemovic/.config/coc/extensions/node_modules/redhat.java/eclipse-formatter.xml",
-  "java.home": "/usr/lib/jvm/java-11-openjdk"
+  "java.home": "/usr/lib/jvm/java-11-openjdk",
+  "diagnostic.errorSign": "",
+  "diagnostic.warningSign": "",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": ""
 }
