@@ -33,6 +33,8 @@ return require('packer').startup(function()
   use 'nvim-telescope/telescope-media-files.nvim'
   -- Explorer
   --use 'kyazdani42/nvim-tree.lua'
+  --Which-Key
+ use 'folke/which-key.nvim'
   --use 'norcalli/nvim-colorizer.lua'
   -- Git
   use 'TimUntersberger/neogit'
